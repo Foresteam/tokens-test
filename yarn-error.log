@@ -1,0 +1,44 @@
+Arguments: 
+  /home/foresteam/.nvm/versions/node/v16.15.1/bin/node /home/foresteam/.nvm/versions/node/v16.15.1/bin/yarn add tokens-transformer
+
+PATH: 
+  /home/foresteam/.local/share/pnpm:/home/foresteam/.yarn/bin:/home/foresteam/.config/yarn/global/node_modules/.bin:/home/foresteam/.local/share/pnpm:/home/foresteam/.yarn/bin:/home/foresteam/.config/yarn/global/node_modules/.bin:/home/foresteam/.nvm/versions/node/v16.15.1/bin:/home/foresteam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/foresteam/Android/Sdk/tools:/home/foresteam/Android/Sdk/platform-tools:/home/foresteam/Android/Sdk/tools:/home/foresteam/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/tokens-transformer: Not found
+      at Request.params.callback [as _callback] (/home/foresteam/.nvm/versions/node/v16.15.1/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/home/foresteam/.nvm/versions/node/v16.15.1/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/home/foresteam/.nvm/versions/node/v16.15.1/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/home/foresteam/.nvm/versions/node/v16.15.1/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "tokens-test",
+  	"type": "module",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:Foresteam/tokens-test.git",
+    "author": "Foresteam <heler1141@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

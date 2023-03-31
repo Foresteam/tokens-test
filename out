@@ -1,0 +1,20 @@
+{
+  "primary-text": {
+    "value": "#5AF",
+    "type": "color"
+  },
+  "lg": {
+    "value": "20%",
+    "type": "borderRadius"
+  },
+  "sm": {
+    "value": "6.666666666666667%",
+    "type": "borderRadius"
+  },
+  "tokenSetOrder": {
+    "0": {
+      "value": "global",
+      "type": "other"
+    }
+  }
+}
